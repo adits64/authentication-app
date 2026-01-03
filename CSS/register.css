@@ -1,0 +1,57 @@
+
+
+header{
+    margin-bottom: 20px;
+}
+div .card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #3c227d 0%, #222238 100%);
+    border-radius: 12px;
+}
+ .logo {
+    cursor: pointer;}
+
+header a{
+    text-decoration: none;
+    color: #edecf1;
+    }
+
+.secondary-link a{
+    color:#ee6d3f;
+    font-weight: 600;
+    text-decoration: underline;
+    
+}
+.secondary-link a:hover {
+    color: #dbeafe;
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cta .btn {
+    background-color:#ee6d3f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-style:none;
+    margin:5px;
+}
+.cta .btn:hover {
+    background-color: #252142;
+    cursor: pointer;
+     
+}
+.success {
+  color: #4caf50;
+  margin-top: 10px;
+  font-weight: 600;
+}

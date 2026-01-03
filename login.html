@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/login.css">
+    
+</head>
+<body>
+
+    <header class="header">
+        <a href="http:index.html"><div class="logo">AuthFlow </div></a>
+    </header>
+
+    <div class="card">
+        <h2>
+            Login
+        </h2>
+
+        <form id="login-form">
+            <div class="form-group"><label for="email">Email Address:</label>
+                <div class="input-wrapper">
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <span id="email-error" class="error"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <div class="input-wrapper">
+                <input type="password" id="password" name="password" placeholder="Enter password">
+                <span class="toggle-password" id="toggle-confirm">&#128065;</span>
+                <span id="password-error" class="error"></span>
+                </div>
+            </div>
+
+            <div class="cta">
+                <button type="submit" class="btn btn-primary">Log In</button>
+                <p class="secondary-link">Don't have an account? <a href="register.html">Create Account<a></p>
+            </div>
+
+        </form>
+    </div>
+</body>
+<script src="Scripts/login/login.js"></script>
+<script src="Scripts/common/common.js"></script>
+</html>

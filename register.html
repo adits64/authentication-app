@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - AuthFlow</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+  <header class="header">
+    <a href="http:index.html"><div class="logo">AuthFlow </div></a>
+  </header>
+  <div class="card">
+    
+    <h2>Create Your Account</h2>
+
+     
+    <form id="register-form">
+      
+       
+     <div class="form-group">
+         <label for="fullname">Full Name:</label>
+         <div>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+      <span id="name-error" class="error"></span>
+     </div>
+     </div>
+       
+      <div class="form-group"><label for="email">Email Address:</label>
+        <div>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <span id="email-error" class="error"></span></div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <div class="input-wrapper">
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        <span class="toggle-password" id="toggle-password">&#128065;</span>
+        <span id="password-error" class="error"></span>
+       </div>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password:</label>
+        <div class="input-wrapper">
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
+        <span class="toggle-password" id="toggle-confirm">&#128065;</span>
+        <span id="confirm-error" class="error"></span>
+        </div>  
+    </div>
+     
+      <div class="form-group">
+        <label for="city">City:</label><div>
+        <input type="text" id="city" name="city" placeholder="Enter your city" required>
+        <span id="city-error" class="error"></span></div>
+      </div>
+        <div id= "success-msg"class="success"></div>
+     
+      <div class="cta">
+        <button type="submit" class="btn btn-primary">Create Account</button>
+      <p class="secondary-link">Already have an account? <a href="login.html">Login</a></p>
+      </div>
+      <div id= "success-msg"class="success"></div>
+    </form>
+  </div>
+
+</body>
+    <script src="Scripts/register/register.js"></script>
+    <script src="Scripts/common/common.js"></script>
+</html>

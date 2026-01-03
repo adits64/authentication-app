@@ -1,0 +1,49 @@
+.menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger {
+  font-size: 26px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 8px;
+  user-select: none;
+}
+
+.hamburger:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+#menu-options {
+  display: none;
+  position: absolute;
+  top: 38px;
+  right: 0;
+  background: #222238;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+  overflow: hidden;
+  min-width: 160px;
+  z-index: 100;
+}
+
+#menu-options button {
+  width: 100%;
+  padding: 12px 14px;
+  text-align: left;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#menu-options button:hover {
+  background: #3c227d;
+}
