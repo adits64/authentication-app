@@ -39,3 +39,14 @@ loginForm.addEventListener('submit', function(e){
 
     
 })
+const togglePassword = document.getElementById('toggle-password');
+ togglePassword.addEventListener('click', function() {
+    if (password.type === 'password') {
+        password.type = 'text';
+        togglePassword.classList.add('active');
+    } else {
+        password.type = "password";
+        togglePassword.classList.remove('active');
+    }
+});
+
